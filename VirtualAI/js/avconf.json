@@ -1,0 +1,23 @@
+{
+  "AzureSpeechResource": {
+    "Region": "eastus",
+    "SubscriptionKey": "40c9a21dddee429b86775c71351c57ad" 
+  },
+  "ICEServer": {
+    "URL": "turn:relay.communication.microsoft.com:3478",
+    "Username": " BQAANvhgJQAB2ij1W9e4HMurB7+vGKLBRuz7smIAa5kAAAAMARC/dFx4T8BD+qPgHQdHSP+sd7aF9X278F7/9JQ+J1NZugMpoyg=",
+    "Credential": "L5CQRC0x20LHpzwdmfHR1suj8GY="
+  },
+  "TTSConfiguration": {
+    "Voice": "en-US-JennyNeural",
+    "CustomVoiceEndpointId": ""
+  },
+  "AvatarConfiguration": {
+    "Character": "lisa",
+    "Style": "casual-sitting",
+    "BackgroundColor": "#FFFFFFFF",
+    "CustomAvatar": false,
+    "TransparentBackground": true,
+    "VideoCrop": false
+  }
+}
