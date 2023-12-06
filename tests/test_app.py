@@ -1,7 +1,7 @@
 import pytest
 from streamlit.proto.BlockPath_pb2 import BlockPath
 from streamlit.testing.streamlit_test_client import StreamlitTestClient
-from your_app_file import main  # Replace 'your_app_file' with the actual name of your Streamlit app file
+from aoo import main  
 
 def test_main_functionality():
     with StreamlitTestClient(main) as client:
