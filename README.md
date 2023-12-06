@@ -52,3 +52,44 @@ The prototype utilizes Huggingface Transformers with large language models, incl
 1. *Connect with Visual Studio Through Remote Tunnels Extensions*
    ```bash
    ssh <SSH command> -L 8888:localhost:8888
+
+# Install Essential Packages
+sudo apt update
+sudo apt-get install build-essential
+
+# Create Conda Environment
+# Follow the instructions here.
+
+# Install Packages using Requirements.txt
+pip install -r requirements.txt
+
+# Resolve GCC Error
+# If you encounter a GCC error, install necessary packages:
+conda install aiohttp greenlet llvmlite pyarrow
+
+# Run Streamlit Application
+streamlit run app.py
+
+# Install Ngrok for Port Forwarding
+curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list && sudo apt update && sudo apt install ngrok
+
+# Authentication for Ngrok
+ngrok config add-authtoken YOUR_TOKEN
+
+# Check Environment List
+conda env list
+
+# Create Conda Environment
+ENV_NAME="myenv"
+conda deactivate
+rm -rf $ENV_NAME
+python3 -m venv $ENV_NAME
+source $ENV_NAME/bin/activate
+pip install --upgrade pip
+pip install scikit-image jupyter matplotlib intel_extension_for_transformers intel-extension-for-tensorflow[cpu]==2.13.0.0 keras_cv keras_core ipykernel prettytable
+jupyter kernelspec uninstall $ENV_NAME -y
+python3 -m ipykernel install --user --name=$ENV_NAME
+conda deactivate
+
+# Install Python3 Separately (if needed)
+# Replace with the appropriate code.
