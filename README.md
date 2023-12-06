@@ -7,7 +7,7 @@ ByteZen
 Customer Support
 
 ## Team Leader Email
-hemachandiran.t88@wipro.com
+[hemachandiran.t88@wipro.com](mailto:hemachandiran.t88@wipro.com)
 
 ## Brief of the Prototype
 
@@ -17,20 +17,17 @@ ByteZen is working on a groundbreaking solution for Customer IT Technical Suppor
 ### Goal
 The goal of ByteZen is to revolutionize technical support by building an AI-powered application that offers round-the-clock assistance. The application aims to provide instant solutions to customer problems, reducing downtime and enhancing the overall user experience.
 
-### Prototype Description
+## Prototype Description
+
 The prototype utilizes Huggingface Transformers with large language models, including Mistral-7B and LLava-13B. Technologies such as Intel Extension for transformers, Intel Analytical Toolkit, Intel Neural Compressor, Intel Distribution for Python, streamlit, Langchain, node.js (Avatar Application), Azure Speech Service, and Ngrok are employed to achieve the project goals.
 
-## Tech stack 
+## Tech Stack
 
-![image](https://github.com/Hemachandirant/Intel_Hackathon_Customer_Support-oneAPI/assets/83321708/cd340e24-3597-4417-aa1c-db2ac6076f14)
+### Architecture
+![Architecture](https://github.com/Hemachandirant/Intel_Hackathon_Customer_Support-oneAPI/assets/83321708/2e45c1f6-2b25-48f2-8af6-919af445da90)
 
-## Architecture
-
-![image](https://github.com/Hemachandirant/Intel_Hackathon_Customer_Support-oneAPI/assets/83321708/2e45c1f6-2b25-48f2-8af6-919af445da90)
-
-## Core components of oneAPI AI Toolkit & IDC used in the project
-
-![image](https://github.com/Hemachandirant/Intel_Hackathon_Customer_Support-oneAPI/assets/83321708/dc0a4bb6-856b-4e65-bf4f-1930dc734f1f)
+### Core Components of oneAPI AI Toolkit & IDC Used in the Project
+![Core Components](https://github.com/Hemachandirant/Intel_Hackathon_Customer_Support-oneAPI/assets/83321708/dc0a4bb6-856b-4e65-bf4f-1930dc734f1f)
 
 ### Models
 - Huggingface Transformers
@@ -49,16 +46,16 @@ The prototype utilizes Huggingface Transformers with large language models, incl
 
 ## Step-by-Step Code Execution Instructions
 
-1. *Connect with Visual Studio Through Remote Tunnels Extensions*
-   ```bash
-   ssh <SSH command> -L 8888:localhost:8888
+```bash
+# Connect with Visual Studio Through Remote Tunnels Extensions
+ssh <SSH command> -L 8888:localhost:8888
 
 # Install Essential Packages
 sudo apt update
 sudo apt-get install build-essential
 
 # Create Conda Environment
-# Follow the instructions here.
+# Follow the instructions [here](#).
 
 # Install Packages using Requirements.txt
 pip install -r requirements.txt
