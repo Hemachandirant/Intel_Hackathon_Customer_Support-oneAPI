@@ -102,8 +102,5 @@ curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trust
 # Authentication for Ngrok
 ngrok config add-authtoken YOUR_TOKEN
 
-
-
-
-
-
+#Run the below command to lauch
+ngrok http <Port number>
