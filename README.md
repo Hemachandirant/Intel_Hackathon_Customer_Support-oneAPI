@@ -103,8 +103,7 @@ curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trust
 ngrok config add-authtoken YOUR_TOKEN
 
 
-### Future Scope:
-   Write about the scalability and futuristic aspects of the prototype developed
+
 
 
 
