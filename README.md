@@ -69,7 +69,9 @@ https://github.com/Hemachandirant/Intel_Hackathon_Customer_Support-oneAPI/assets
    - Allow users to initiate LLM-driven automated checks and resolutions.
    - Ensure transparency and user consent for LLM-powered automated actions.
   
-## Medium article [link] (https://medium.com/@rshivanipriya/revolutionizing-tech-support-with-intel-ai-toolkits-and-oneapi-4cf7027909af)
+## Medium Article
+
+[Revolutionizing Tech Support with Intel AI Toolkits and OneAPI](https://medium.com/@rshivanipriya/revolutionizing-tech-support-with-intel-ai-toolkits-and-oneapi-4cf7027909af)
 
 ## Step-by-Step Code Execution Instructions
 
