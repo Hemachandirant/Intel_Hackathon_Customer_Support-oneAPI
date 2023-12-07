@@ -45,6 +45,15 @@ The prototype utilizes Huggingface Transformers with large language models, incl
 8. Azure Speech Service
 9. Ngrok
 
+### Xenon CPU Utilization during model training:
+
+https://github.com/Hemachandirant/Intel_Hackathon_Customer_Support-oneAPI/assets/83321708/06202406-01e2-4fd4-aee2-57b494b3b3e7
+
+### Training loss and saving the model:
+
+![BeFunky-collage](https://github.com/Hemachandirant/Intel_Hackathon_Customer_Support-oneAPI/assets/83321708/ef4653da-1ffe-43d6-ba56-15fd14b4684c)
+
+
 ### Future Scope:
    Our roadmap involves leveraging Large Language Models (LLMs) to integrate advanced automation support into the customer support application, enhancing issue resolution and user experience.
 
@@ -59,6 +68,9 @@ The prototype utilizes Huggingface Transformers with large language models, incl
 3. **User-Empowered Solutions:**
    - Allow users to initiate LLM-driven automated checks and resolutions.
    - Ensure transparency and user consent for LLM-powered automated actions.
+  
+
+  
 
 ## Step-by-Step Code Execution Instructions
 
