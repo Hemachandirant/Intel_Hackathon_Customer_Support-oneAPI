@@ -7,8 +7,8 @@ try:
     print("Azure Communication Services - Access Relay Configuration Quickstart")
 
     # Authentication setup
-    connection_str = "endpoint=https://speechservice.india.communication.azure.com/;accesskey=T1/W73JtyEloRKUfuJT0Dutv0XwrPv3qloeWQS9TkKPkmkKO945EfdWuiAXJI4nz6CE766SW10GA/ywo55vYXA=="
-    endpoint = "https://speechservice.india.communication.azure.com/"
+    connection_str = ""
+    endpoint = ""
 
     # Initialize the Communication Identity Client using the connection string
     identity_client = CommunicationIdentityClient.from_connection_string(connection_str)
