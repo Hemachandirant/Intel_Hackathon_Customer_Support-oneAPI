@@ -31,7 +31,7 @@ The prototype utilizes Huggingface Transformers with large language models, incl
 ![Core Components](https://github.com/Hemachandirant/Intel_Hackathon_Customer_Support-oneAPI/assets/83321708/dc0a4bb6-856b-4e65-bf4f-1930dc734f1f)
 
 ### Models
-- Huggingface Transformers
+- Huggingface Transformers [https://huggingface.co/shivani05/Mistral-Finetuned-CPU/tree/main]
   - LLMs: Mistral-7B, Zephyr-7B
 
 ### Technologies Used
